@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # run the installation scripts
 
 if ! [ $(id -u) = 0 ]; then
@@ -7,5 +7,6 @@ if ! [ $(id -u) = 0 ]; then
    exit 1
 fi
 
-./wifi.sh
-./python.sh
+./wifi.sh;
+./python.sh;
+./node.sh;
